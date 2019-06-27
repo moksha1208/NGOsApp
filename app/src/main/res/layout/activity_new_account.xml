@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAccount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ngoname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Name"/>
+
+        <EditText
+            android:id="@+id/ngoaddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Address"/>
+
+        <EditText
+            android:id="@+id/ngonumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Number"/>
+
+        <EditText
+            android:id="@+id/ngopassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Password"/>
+
+        <EditText
+            android:id="@+id/ngorepassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Re-enter Password"/>
+
+        <Button
+            android:id="@+id/createacc"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CREATE ACCOUNT"
+            android:onClick="createacc"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
